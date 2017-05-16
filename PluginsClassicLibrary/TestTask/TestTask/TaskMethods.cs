@@ -39,9 +39,11 @@ namespace TestTask
         }
         public static Task<T> ContinueWithMy<T>(this Task CurrentTask, Func<Task, Task<T>> func)
         {
-            Task<T> obj = null;
-            obj = new Task<T>(() => { return func(); }, new System.Threading.CancellationToken());
-            return obj;
+            Task<T> task = new Task<T>(() =>
+            {
+                return func(CurrentTask).Result;
+            });
+            return task;
         }
     }
 }
