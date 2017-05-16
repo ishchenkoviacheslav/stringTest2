@@ -1,0 +1,8 @@
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\testPlugins\testPlugins\bin\Debug\testPlugins.exe.config
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\testPlugins\testPlugins\bin\Debug\testPlugins.exe
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\testPlugins\testPlugins\bin\Debug\testPlugins.pdb
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\testPlugins\testPlugins\bin\Debug\Plugins.dll
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\testPlugins\testPlugins\bin\Debug\Plugins.pdb
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\testPlugins\testPlugins\obj\Debug\testPlugins.csprojResolveAssemblyReference.cache
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\testPlugins\testPlugins\obj\Debug\testPlugins.exe
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\testPlugins\testPlugins\obj\Debug\testPlugins.pdb

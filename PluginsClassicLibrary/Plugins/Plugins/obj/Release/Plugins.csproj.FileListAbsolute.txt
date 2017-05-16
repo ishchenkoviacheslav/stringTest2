@@ -1,0 +1,5 @@
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\Plugins\Plugins\bin\Release\Plugins.dll
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\Plugins\Plugins\bin\Release\Plugins.pdb
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\Plugins\Plugins\obj\Release\Plugins.csprojResolveAssemblyReference.cache
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\Plugins\Plugins\obj\Release\Plugins.dll
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\Plugins\Plugins\obj\Release\Plugins.pdb

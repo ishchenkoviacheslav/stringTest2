@@ -1,0 +1,4 @@
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\Plugins\Plugins\bin\Debug\Plugins.dll
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\Plugins\Plugins\bin\Debug\Plugins.pdb
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\Plugins\Plugins\obj\Debug\Plugins.dll
+C:\Users\user\Source\Repos\NewRepo\PluginsClassicLibrary\Plugins\Plugins\obj\Debug\Plugins.pdb
