@@ -44,6 +44,7 @@ namespace TestTask
                 return func(CurrentTask).Result;
             });
             return task;
+            
         }
     }
 }
