@@ -13,7 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using System.Diagnostics;
+using System.Reflection;
 namespace TestTask
 {
     /// <summary>
@@ -22,14 +23,29 @@ namespace TestTask
     public partial class MainWindow : Window
     {
         MyMutex mutexObj = new MyMutex();
+        
+        private void CurrentDomain_AssemblyLoad(object sender, AssemblyLoadEventArgs args)
+        {
+            foreach (Type type in args.LoadedAssembly.GetTypes())
+            {
+                foreach (ConstructorInfo ctor in type.GetConstructors())
+                {
+                    if (ctor.GetParameters().Length == 0 && ctor.IsPublic)
+                    {
+                        ReflectionClass.AddCtor(type, ctor);
+                    }
+                }
+            }
+        }
 
         public MainWindow()
         {
             InitializeComponent();
-
+            AppDomain.CurrentDomain.AssemblyLoad += CurrentDomain_AssemblyLoad;
+            ReflectionClass.GetTypesWithDefaultCtor();
             SomeClass obj = new SomeClass() { SomeInt = 5, SomeString = "Some string data" };
             SomeClass cloneObj = (SomeClass)obj.Clone();
-
+            
         }
 
         private void runMutexBtn_Click(object sender, RoutedEventArgs e)
