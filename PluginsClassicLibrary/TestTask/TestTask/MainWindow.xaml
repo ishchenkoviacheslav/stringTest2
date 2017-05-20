@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="button" Content="Rut mutex async" HorizontalAlignment="Left" Margin="328,240,0,0" VerticalAlignment="Top" Width="149" Click="button_Click" Height="54"/>
+        <Button x:Name="runMutexBtn" Content="Rut mutex async" HorizontalAlignment="Left" Margin="328,240,0,0" VerticalAlignment="Top" Width="149" Click="runMutexBtn_Click" Height="54"/>
+        <Button x:Name="generatorBtn" Content="Generator" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="134" Height="54" Click="generatorBtn_Click"/>
+        <Label x:Name="labelForNumber" Content="Label" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

@@ -70,6 +70,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Generator.cs" />
     <Compile Include="MyMutex.cs" />
     <Compile Include="SomeClass.cs" />
     <Compile Include="TaskMethods.cs" />
